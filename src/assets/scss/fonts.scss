@@ -1,0 +1,40 @@
+$font-path: '../fonts/';
+
+//BebasNeue
+
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('#{$font-path}BebasNeue/bebasneue_regular.woff2') format('woff2'),
+		url('#{$font-path}BebasNeue/bebasneue_regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+//DINPro
+
+@font-face {
+	font-family: 'DINPro';
+	src: url('#{$font-path}DINPro/DINPro-Light.woff2') format('woff2'),
+		url('#{$font-path}DINPro/DINPro-Light.woff') format('woff'),
+		url('#{$font-path}DINPro/DINPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro';
+	src: url('#{$font-path}DINPro/DINPro-Bold.woff2') format('woff2'),
+		url('#{$font-path}DINPro/DINPro-Bold.woff') format('woff'),
+		url('#{$font-path}DINPro/DINPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro';
+	src: url('#{$font-path}DINPro/DINPro-Regular.woff2') format('woff2'),
+		url('#{$font-path}DINPro/DINPro-Regular.woff') format('woff'),
+		url('#{$font-path}DINPro/DINPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

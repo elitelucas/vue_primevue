@@ -1,0 +1,136 @@
+
+/*color definitions*/
+$white: #ffffff;
+$black: #000000;
+
+
+/*primary*/
+$blue-munsell:  #258EA6;
+/*secondary*/
+$outer-space:   #292F36;
+/*info*/
+$eden:          #114B5F;
+/*success*/
+$aqua-forest:   #60A561;
+/*warning*/
+$saffron:       #F7B32B;
+/*danger*/
+$brick-red:     #CC2936;
+/*link*/
+$oxford-blue:   #0C1B33;
+
+
+$primary-light:		scale-color($blue-munsell, $lightness: 20%);
+$primary-main: 		$blue-munsell;
+$primary-dark: 		scale-color($blue-munsell, $lightness: -10%);
+$primary-darker:	scale-color($blue-munsell, $lightness: -20%);
+
+$secondary-light: 	scale-color($outer-space, $lightness: 20%);
+$secondary-main: 	$outer-space;
+$secondary-dark: 	scale-color($outer-space, $lightness: -30%);
+$secondary-darker: 	scale-color($outer-space, $lightness: -80%); 
+
+$info-light: 		scale-color($eden, $lightness: 20%);
+$info-main: 		$eden;
+$info-dark: 		scale-color($eden, $lightness: -20%);
+$info-darker: 		scale-color($eden, $lightness: -40%);
+
+$success-light: 	scale-color($aqua-forest, $lightness: 20%);
+$success-main: 		$aqua-forest;
+$success-dark: 		scale-color($aqua-forest, $lightness: -20%);
+$success-darker: 	scale-color($aqua-forest, $lightness: -40%);
+
+$warning-light: 	scale-color($saffron, $lightness: 20%);
+$warning-main: 		$saffron;
+$warning-dark: 		scale-color($saffron, $lightness: -20%);
+$warning-darker: 	scale-color($saffron, $lightness: -40%);
+
+$danger-light: 		scale-color($brick-red, $lightness: 20%);
+$danger-main: 		$brick-red;
+$danger-dark: 		scale-color($brick-red, $lightness: -20%);
+$danger-darker: 	scale-color($brick-red, $lightness: -40%);
+
+$link-light: 		scale-color($oxford-blue, $lightness: 20%);
+$link-main: 		$oxford-blue;
+$link-dark: 		scale-color($oxford-blue, $lightness: -20%);
+$link-darker: 		scale-color($oxford-blue, $lightness: -40%);
+
+$error-main:		$brick-red;
+
+/*buttons*/
+$primary-normal-color: 		scale-color($primary-main, $lightness: 90%);
+$primary-normal-border: 	$primary-main;
+$primary-normal-background:	$primary-main;
+$primary-hover-color: 		scale-color($primary-dark, $lightness: 90%);
+$primary-hover-border: 		$primary-dark;
+$primary-hover-background: 	$primary-dark;
+$primary-focus-shadow: 		scale-color($primary-main, $lightness: 0%, $alpha:-60);
+$primary-active-color: 		scale-color($primary-darker, $lightness: 90%);
+$primary-active-border: 	$primary-darker;
+$primary-active-background:	$primary-darker;
+
+$secondary-normal-color: 		scale-color($secondary-main, $lightness: 90%);
+$secondary-normal-border:		$secondary-main;
+$secondary-normal-background:	$secondary-main;
+$secondary-hover-color: 		scale-color($secondary-dark, $lightness: 90%);
+$secondary-hover-border: 		$secondary-dark;
+$secondary-hover-background: 	$secondary-dark;
+$secondary-focus-shadow: 		scale-color($secondary-main, $lightness: 0%, $alpha:-60);
+$secondary-active-color: 		scale-color($secondary-darker, $lightness: 90%);
+$secondary-active-border: 		$secondary-darker;
+$secondary-active-background: 	$secondary-darker;
+
+$info-normal-color: 		scale-color($info-main, $lightness: 90%);
+$info-normal-border: 		$info-main;
+$info-normal-background: 	$info-main;
+$info-hover-color: 			scale-color($info-dark, $lightness: 90%);
+$info-hover-border: 		$info-dark;
+$info-hover-background: 	$info-dark;
+$info-focus-shadow: 		scale-color($info-main, $lightness: 0%, $alpha:-60);
+$info-active-color: 		scale-color($info-darker, $lightness: 90%);
+$info-active-border: 		$info-darker;
+$info-active-background:	$info-darker;
+
+$success-normal-color: 		scale-color($success-main, $lightness: 90%);
+$success-normal-border: 	$success-main;
+$success-normal-background:	$success-main;
+$success-hover-color: 		scale-color($success-dark, $lightness: 90%);
+$success-hover-border:		$success-dark;
+$success-hover-background: 	$success-dark;
+$success-focus-shadow: 		scale-color($success-main, $lightness: 0%, $alpha:-60);
+$success-active-color: 		scale-color($success-darker, $lightness: 90%);
+$success-active-border: 	$success-darker;
+$success-active-background:	$success-darker;
+
+$warning-normal-color:		scale-color($warning-main, $lightness: -90%);
+$warning-normal-border: 	$warning-main;
+$warning-normal-background:	$warning-main;
+$warning-hover-color: 		scale-color($warning-dark, $lightness: -90%);
+$warning-hover-border: 		$warning-dark;
+$warning-hover-background: 	$warning-dark;
+$warning-focus-shadow: 		scale-color($warning-main, $lightness: 0%, $alpha:-60);
+$warning-active-color: 		scale-color($warning-darker, $lightness: -90%);
+$warning-active-border: 	$warning-darker;
+$warning-active-background:	$warning-darker;
+
+$danger-normal-color: 		scale-color($danger-main, $lightness: 90%);
+$danger-normal-border: 		$danger-main;
+$danger-normal-background: 	$danger-main;
+$danger-hover-color: 		scale-color($danger-dark, $lightness: 90%);
+$danger-hover-border: 		$danger-dark;
+$danger-hover-background: 	$danger-dark;
+$danger-focus-shadow: 		scale-color($danger-main, $lightness: 0%, $alpha:-60);
+$danger-active-color: 		scale-color($danger-darker, $lightness: 90%);
+$danger-active-border: 		$danger-darker;
+$danger-active-background:	$danger-darker;
+
+$link-normal-color: 		$link-main;
+$link-normal-border: 		transparent;
+$link-normal-background: 	transparent;
+$link-hover-color: 			$link-dark;
+$link-hover-border: 		transparent;
+$link-hover-background: 	transparent;
+$link-focus-shadow: 		scale-color($link-main, $lightness: 0%, $alpha:-80);
+$link-active-color: 		$link-darker;
+$link-active-border: 		transparent;
+$link-active-background: 	scale-color($link-main, $lightness: 0%, $alpha:-80);
